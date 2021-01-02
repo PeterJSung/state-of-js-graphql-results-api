@@ -6,96 +6,95 @@ translations:
 
     # homepage
     - key: general.why_create_account
-      t: Why do I need to create an account?
+      t: 왜 회원가입을 해야하나요?
     - key: general.create_account_reasons
       t: >
-          We ask you to create an account in order to:
+          아래와 같은 이유때문에 회원 가입이 필요합니다:
 
-          - Avoid duplicate responses
+          - 중복된 응답 방지
 
-          - Give you access to your data
+          - 귀하의 정보 열람
 
-          - Save your session as you go
+          - 귀하의 중간 정보 저장
 
-          - Notify you when results are live
+          - 설문 취합 완료시 통지
     - key: general.survey_closed
       t: >
-          Sorry, the survey is now closed! You can still review your data but you won't be able to modify it.
+          죄송합니다, 설문 기간이 지났습니다! 제출하신 설문 응답을 열람해볼수 있지만, 수정은 불가합니다.
     - key: general.survey_read_only
       t: >
-          You are currently viewing this survey in read-only mode.
+          현재 설문은 읽기 전용 입니다.
     - key: general.survey_read_only_back
       t: >
-          <a href="${link}">Go back</a> to the main survey page to start or resume a session.
+          설문을 재시작하거나 계속하시려면 <a href="${link}">뒤로 가기</a>를 눌러주세요.
 
     # surveys
     - key: general.open_surveys
-      t: Open Surveys
+      t: 진행중인 설문
     - key: general.no_open_surveys
-      t: No surveys are currently open.
+      t: 진행중인 설문이 없습니다.
     - key: general.closed_surveys
-      t: Closed Surveys
+      t: 만료된 설문
     - key: general.no_closed_surveys
-      t: No surveys are currently closed.
+      t: 만료된 설문이 없습니다.
     - key: general.preview_surveys
-      t: Preview Surveys
+      t: 설문 미리보기
     - key: general.no_preview_surveys
-      t: No surveys available to preview.
+      t: 미리볼수 있는 설문이 없습니다.
     - key: general.start_survey
-      t: Start Survey »
+      t: 설문 시작 »
     - key: general.continue_survey
-      t: Continue Survey »
+      t: 설문 계속 »
     - key: general.review_survey
-      t: Review Survey »
+      t: 설문 다시보기 »
     - key: general.preview_survey
-      t: Preview Survey »
+      t: 설문 미리보기 »
     - key: general.finish_survey
-      t: Finish Survey »
+      t: 설문 제출 »
     - key: general.survey_closed
-      t: This survey is now closed.
+      t: 이 설문은 종료되었습니다.
     - key: general.survey_results
-      t: View Survey Results »
+      t: 설문 결과 보기 »
     - key: general.surveys_available_languages
-      t: 'Surveys available in:'
+      t: '진행중인 설문의 언어:'
     - key: general.help_us_translate
-      t: Help us translate the surveys »
+      t: 설문 번역을 도와주세요 »
     - key: general.translators
-      t: Translators
+      t: 식자
     - key: general.translation_help
-      t: Translation Help
+      t: 번역 도움
 
     # footer
     - key: general.privacy_policy
-      t: Privacy Policy
+      t: 개인 정보 약관
     - key: general.leave_issue
-      t: Questions? Found a bug? <a href="${link}" target="_blank">Leave an issue</a>.
+      t: 질문이있거나 버그가 있으신가요? <a href="${link}" target="_blank">이슈 제출</a>을 눌러주세요.
     - key: general.emoji_icons
-      t: Emoji icons by <a target="_blank" rel="noreferrer" href="https://icons8.com">Icons8</a>
+      t: 이모티콘 출처 <a target="_blank" rel="noreferrer" href="https://icons8.com">Icons8</a>
 
     # navigation
     - key: general.table_of_contents
-      t: Table of Contents
+      t: 목차
     - key: general.all_questions_optional
       t: >
-          Note: all questions are optional, reaching 100% completion is not required.
+          주의사항: 모든 질문에 100% 응답하지 않으셔도됩니다.
     - key: general.data_is_saved
-      t: Your data is saved whenever you navigate to the previous or next section.
+      t: 페이지가 이전 이후로 변경되도 자동으로 저장됩니다.
 
     # thanks
     - key: general.back
-      t: Back
+      t: 뒤로가기
     - key: general.thanks
       t: >
-          Thanks for filling out the survey!
+          저희 설문에 응답해주셔서 감사합니다!
 
-          Your data is saved. You can review or modify it until the survey closes.
+          제출 하신 설문이 저장되었습니다. 설문이 만료될때까지 제출 하신 설문을 다시보거나 수정하실 수 있습니다.
 
-          Also, you can help us get the word out by sharing this survey. Every bit counts, and it'll help make our data even
-          more representative:
+          또한, 이 설문을 공유해주시면 감사합니다. 한분한분의 응답이, 설문의 완성도에 도움이 됩니다.
     - key: thanks.learn_more_about
-      t: 'Some of the features you might want to learn more about:'
+      t: '그 밖에 알고 싶은 기능이 있으신가요:'
     - key: thanks.knowledge_score
-      t: Knowledge Score
+      t: 지식 점수
     - key: thanks.score_explanation
       t: >
           You’ve heard or used <span class="score-number score-number-known">{known}</span> out of
@@ -103,79 +102,79 @@ translations:
           puts you in the top <span class="score-number score-number-ranking">{knowledgeRankingFromTop}%</span>
           of all respondents.
     - key: thanks.share_on_twitter
-      t: Share on Twitter
+      t: 트위터에 공유
     - key: thanks.share_score_message
       t: >
           I got a {score}% knowledge score on this year's #{hashtag} survey! Take the survey here: {shareUrl}
     # share
     - key: general.share_subject
       t: >
-          {surveyName} survey
+          {surveyName} 설문
     - key: general.share_text
       t: >
-          This year's {surveyName} survey is now open! {link}
+          올해의 {surveyName} 설문조사가 시작되었습니다! {link}
 
     # forms
     - key: forms.select_option
-      t: Select option
+      t: 옵션 선택
 
     # partners
     - key: partners.our_partners
-      t: Our Partners
+      t: 우리의 파트너들
     - key: partners.become_partner
-      t: Become a partner
+      t: 우리의 파트너가 되어 주세요
 
     # 404
     - key: notfound.title
       t: 404 Not Found
     - key: notfound.description
-      t: Sorry, we couldn't find what you were looking for. 
+      t: 죄송합니다, 페이지를 찾을 수 없습니다. 
 
     # other
     - key: general.join_discord
-      t: Join us on <a href="${link}">Discord</a>. 
+      t: <a href="${link}">Discord</a> 에서 함깨 해 주세요. 
     - key: general.translator_mode
-      t: Press option/alt to enable translator mode. 
+      t: option/alt 키를 누르시면 번역 모드가 활성화 됩니다. 
     - key: general.charts_nivo
-      t: Charts built with <a href="${link}">Nivo</a>.
+      t: <a href="${link}">Nivo</a>의 차트를 사용했습니다.
       
     ###########################################################################
     # Nav
     ###########################################################################
 
     - key: nav.surveys
-      t: Surveys
+      t: 설문
     - key: nav.account
-      t: Account
+      t: 계정
 
     ###########################################################################
     # Sections
     ###########################################################################
 
     - key: sections.user_info.title
-      t: About You
+      t: 내 페이지
     - key: sections.user_info.description
-      t: Let's get to know the real you.
+      t: 당신에 대해 알려주세요.
 
     - key: sections.features.title
-      t: Features
+      t: 기능
     - key: sections.features.description
-      t: Syntax, keywords, and other language features.
+      t: 구문, 키워드, 그리고 다른 언어 기능들.
 
     - key: sections.resources.title
-      t: Resources
+      t: 리소스
     - key: sections.resources.description
-      t: What {topic} resources do you consult?
+      t: 어떤 {topic} 주제를 참조하시겠습니까?
 
     - key: sections.opinions.title
-      t: Opinions
+      t: 의견
     - key: sections.opinions.description
-      t: How do you feel about the state of {topic}?
+      t: {topic}에 대해서 어떻게 생각하십니까?
 
     - key: sections.other_tools.title
-      t: Other Tools
+      t: 다른 도구
     - key: sections.other_tools.description
-      t: For these tools & technologies, just check the ones that you use regularly.
+      t: 평소 사용하시는 도구나 기술에 대해서 체크해주세요.
 
     ###########################################################################
     # Options
@@ -183,99 +182,99 @@ translations:
 
     # features
     - key: options.features.never_heard
-      t: 🤷 Never heard of it/Not sure what it is
+      t: 🤷 들어본 적도 없고/그게 뭔지도 몰라요
     - key: options.features.heard
-      t: ✅ Know what it is, but haven't used it
+      t: ✅ 들어는 봤는데, 써본적은 없어요
     - key: options.features.used
-      t: 👍 I've used it
+      t: 👍 사용해본적 있어요
 
     # features (no emoji)
     - key: options.features.never_heard.label
-      t: Never heard of it/Not sure what it is
+      t: 들어본 적도 없고/그게 뭔지도 몰라요
     - key: options.features.heard.label
-      t: Know what it is, but haven't used it
+      t: 들어는 봤는데, 써본적은 없어요
     - key: options.features.used.label
-      t: I've used it
+      t: 사용해본적 있어요
 
     # features (short versions)
     - key: options.features.never_heard.short
-      t: Never heard of it
+      t: 들어보지 못함
     - key: options.features.heard.short
-      t: Know about it
+      t: 조금 알고있음
     - key: options.features.used.short
-      t: Have used it
+      t: 사용해본적 있음
 
     # patterns
     - key: options.patterns.use_never
-      t: Almost always avoid
+      t: 거의 사용하지 않음
     - key: options.patterns.use_sparingly
-      t: Use sparingly
+      t: 잘 사용하지 않음
     - key: options.patterns.use_neutral
-      t: Neutral
+      t: 가끔 사용
     - key: options.patterns.use_frequently
-      t: Use frequently
+      t: 주기적으로 사용
     - key: options.patterns.use_always
-      t: Use as much as I can
+      t: 항상 사용
 
     # tools experience
     - key: options.tools.never_heard
-      t: 🤷 Never heard of it/Not sure what it is
+      t: 🤷 들어본 적도 없고/그게 뭔지도 몰라요
     - key: options.tools.interested
-      t: ✅ Heard of it > Would like to learn
+      t: ✅ 들어는 봤고 > 배우고 싶어요
     - key: options.tools.not_interested
-      t: 🚫 Heard of it > Not interested
+      t: 🚫 들어는 봤는데 > 흥미 없어요
     - key: options.tools.would_use
-      t: 👍 Used it > Would use again
+      t: 👍 사용해 봤고 > 다시 써볼거에요
     - key: options.tools.would_not_use
-      t: 👎 Used it > Would not use again
+      t: 👎 사용해 봤는데 > 다시 쓰지 않을거에요
 
     # tools experience (no emoji)
     - key: options.tools.never_heard.legend
-      t: Never heard of it/Not sure what it is
+      t: 들어본 적도 없고/그게 뭔지도 몰라요
     - key: options.tools.interested.legend
-      t: Heard of it > Would like to learn
+      t: 들어는 봤고 > 배우고 싶어요
     - key: options.tools.not_interested.legend
-      t: Heard of it > Not interested
+      t: 들어는 봤는데 > 흥미 없어요
     - key: options.tools.would_use.legend
-      t: Used it > Would use again
+      t: 사용해 봤고 > 다시 써볼거에요
     - key: options.tools.would_not_use.legend
-      t: Used it > Would not use again
+      t: 사용해 봤는데 > 다시 쓰지 않을거에요
 
     # tools experience (short versions)
     - key: options.tools.never_heard.short
-      t: Never heard
+      t: 들어본적 없음
     - key: options.tools.interested.short
-      t: Interested
+      t: 흥미 있음
     - key: options.tools.not_interested.short
-      t: Not interested
+      t: 흥미 없음
     - key: options.tools.would_use.short
-      t: Would use again
+      t: 사용함
     - key: options.tools.would_not_use.short
-      t: Would not use
+      t: 사용하지 않음
 
     # happiness
     - key: options.happiness.0
-      t: Very Unhappy
+      t: 전혀 행복하지 않습니다
     - key: options.happiness.1
-      t: Unhappy
+      t: 행복하지 않습니다
     - key: options.happiness.2
-      t: Neutral
+      t: 보통입니다
     - key: options.happiness.3
-      t: Happy
+      t: 행복합니다
     - key: options.happiness.4
-      t: Very Happy
+      t: 매우 행복합니다
 
     # happiness (short version)
     - key: options.happiness.0.short
-      t: Very Unhappy
+      t: 전혀 행복하지 않음
     - key: options.happiness.1.short
-      t: Unhappy
+      t: 행복하지 않음
     - key: options.happiness.2.short
-      t: Neutral
+      t: 보통
     - key: options.happiness.3.short
-      t: Happy
+      t: 행복함
     - key: options.happiness.4.short
-      t: Very Happy
+      t: 매우 행복함
 
     # opinions
     - key: options.opinions.0
